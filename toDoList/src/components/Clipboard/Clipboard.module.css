@@ -1,0 +1,25 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5.6875rem;
+}
+
+.list img {
+    margin-bottom: 1rem;
+}
+
+.list p {  
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: var(--gray-300);
+}
