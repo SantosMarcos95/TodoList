@@ -5,15 +5,12 @@ import { Task } from "../Task/Task"
 import { ChangeEvent, useState } from "react"
 
 
-interface taskInterface {
-    tasks: string;
-    newTask: string;
-}
+
 
 export function NewTask() {
-    const [tasks, setTasks] = useState([])
-    const [newTask, setNewTask] = useState("")
-    const [taskCount, setTaskCount] = useState(0)
+    const [tasks, setTasks] = useState<string[]>([]);
+    const [newTask, setNewTask] = useState<string>("");
+    const [taskCount, setTaskCount] = useState<number>(0);
 
     function handleCreateNewTask(){
 
